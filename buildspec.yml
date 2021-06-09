@@ -4,6 +4,8 @@ phases:
   build:
     commands:
       - ./gradlew assembleDebug
+      - ls -l
+      - ls -l app/build/outputs/apk/
 artifacts:
   files:
     - app/build/outputs/apk/app-debug.apk
